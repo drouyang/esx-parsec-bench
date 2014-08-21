@@ -8,4 +8,8 @@ Features:
 2. run PARSEC benchmark on a remote VM.
 3. Benchmark result is generated locally under the log/$BENCH-$TAG_TIMESTAMP.runtime
 
-Dependency: python fabric
+Usage:
+./run-parsec.sh
+
+Dependency:
+python fabric

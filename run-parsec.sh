@@ -1,12 +1,11 @@
 #!/bin/bash
-#
 # run parsec on a target host, results are generated under log/$BENCH-$TAG-$TIMESTAMP.runtime
-# prerequite
 
+# pthreads: whole benchmark suite; <name>: single benchmark (e.g. dedup)
+BENCH="fluidanimate"
+#BENCH="pthread"
 
 # output file name tag, change it for each experiment
-# BENCH="pthreads" # pthreads: whole benchmark suite; <name>: single benchmark (e.g. dedup)
-BENCH="fluidanimate" # pthreads: whole benchmark suite; <name>: single benchmark (e.g. dedup)
 TAG="x1-3k-ple-test"
 
 # default parameters
